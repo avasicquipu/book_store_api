@@ -1,6 +1,6 @@
 const express = require("express");
-const { authRouter } = require("./auth");
-const { booksRouter } = require("./books");
+const { authRouter } = require("./src/auth");
+const { booksRouter } = require("./src/books");
 
 const app = express();
 const PORT = 3000;

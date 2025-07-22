@@ -1,14 +1,3 @@
-# 📚 Book Store API Documentation
-
----
-
-## Base URLs
-
-- **Auth:** `/auth`
-- **Books:** `/books`
-
----
-
 # 🔐 Authentication API
 
 ---

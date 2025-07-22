@@ -35,4 +35,4 @@ You can find the API documentation inside docs folder
 
 ## React Native Task
 
-Please check REACT_NATIVE.md file for the task
+Please check REACT_NATIVE_TASK.md file for the task

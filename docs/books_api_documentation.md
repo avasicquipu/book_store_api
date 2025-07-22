@@ -1,4 +1,3 @@
-
 # 📚 Books API Documentation
 
 ---
@@ -115,6 +114,7 @@ Same format as GET `/books`.
 **Update a book by ID** (Protected route)
 
 - Path parameter:
+
   - `id` (required) — book ID
 
 - Request body (any of the fields to update):
@@ -141,7 +141,12 @@ Same format as GET `/books`.
 
 **Delete a book by ID** (Protected route)
 
+```
+Authorization: Bearer <jwt_access_token>
+```
+
 - Path parameter:
+
   - `id` (required) — book ID
 
 - Returns deleted book and confirmation message.
